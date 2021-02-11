@@ -1,0 +1,9 @@
+{
+    "2N1": {
+        "1": [{"name": "Técnico", "time": "50 10 * * *", "class": "2n1"}],
+        "2": [{"name": "Técnico", "time": "50 10 * * *", "class": "2n1"}],
+        "3": [{"name": "Técnico", "time": "50 10 * * *", "class": "2n1"}],
+        "4": [{"name": "Técnico", "time": "50 10 * * *", "class": "2n1"}, {"name": "Técnico", "time": "00 11 * * *", "class": "2n1"}],
+        "5": [{"name": "Geografia", "time": "00 08 * * *", "class": "2n1"}, {"name": "Física", "time": "30 13 * * *", "class": "2n1"}, {"name": "Biologia", "time": "10 15 * * *", "class": "2n1"}]
+    }
+}
