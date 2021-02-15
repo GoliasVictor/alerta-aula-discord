@@ -7,7 +7,6 @@ client.once('ready', () => {
 	console.log('Alerta Aula iniciado.');
 	const classesRawData = fs.readFileSync('classes.json');
 	const classes = JSON.parse(classesRawData);
-	const embed = new Discord.MessageEmbed();
 
 	for (const cl in classes) {
 		console.log(cl);
@@ -18,7 +17,7 @@ client.once('ready', () => {
 				const minutes = time[1];
 				cron.schedule(`${minutes} ${hour} * * ${c.day}`, () => {
 					const channel = client.channels.cache.find(channels => channels.name === c.class.toLowerCase());
-					embed
+					const embed = new Discord.MessageEmbed()
 						.setTitle(`Aula de ${c.name}`)
 						.setColor('#0099ff')
 						.setDescription('Informações sobre a aula:')
