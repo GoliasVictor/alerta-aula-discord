@@ -25,7 +25,7 @@ client.once('ready', () => {
 							{ name: 'Horário de início:', value: c.startingTime },
 							{ name: 'Horário de fim:', value: c.endingTime },
 						)
-						.setFooter('Alerta baseado nos horários oficiais da ETEC.');
+						.setFooter('Alerta baseado nos horários oficiais da ETEC');
 					setTimeout(() => {
 						channel.send(`<@&${c.classId}>`);
 						channel.send(embed);

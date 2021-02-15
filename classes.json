@@ -7,7 +7,7 @@
         "class": "2n1",
         "classId": "809521333477179413",
         "startingTime": "8:50",
-        "endingTime": "9:40"
+        "endingTime": "10:50"
       },
       {
         "name": "Filosofia",
@@ -52,90 +52,66 @@
     ],
     "2":  [
       {
-        "name": "História",
-        "day": "1",
+        "name": "DSO - PWII",
+        "day": "2",
         "class": "2n1",
         "classId": "809521333477179413",
-        "startingTime": "8:50",
-        "endingTime": "9:40"
+        "startingTime": "10:00",
+        "endingTime": "12:30"
       },
       {
-        "name": "Filosofia",
-        "day": "1",
-        "class": "2n1",
-        "classId": "809521333477179413",
-        "startingTime": "10:50",
-        "endingTime": "11:40"
-      },
-      {
-        "name": "Química",
-        "day": "1",
+        "name": "Inglês",
+        "day": "2",
         "class": "2n1",
         "classId": "809521333477179413",
         "startingTime": "13:30",
-        "endingTime": "14:20"
-      },
-      {
-        "name": "Matemática",
-        "day": "1",
-        "class": "2n1",
-        "classId": "809521333477179413",
-        "startingTime": "14:20",
         "endingTime": "15:10"
       },
       {
-        "name": "Química",
-        "day": "1",
+        "name": "Educação Física",
+        "day": "2",
         "class": "2n1",
         "classId": "809521333477179413",
         "startingTime": "15:10",
-        "endingTime": "16:00"
-      },
-      {
-        "name": "Sociologia",
-        "day": "1",
-        "class": "2n1",
-        "classId": "809521333477179413",
-        "startingTime": "16:20",
         "endingTime": "17:10"
       }
     ],
     "3":  [
       {
-        "name": "História",
-        "day": "1",
+        "name": "Língua Portuguesa",
+        "day": "3",
         "class": "2n1",
         "classId": "809521333477179413",
-        "startingTime": "8:50",
+        "startingTime": "8:00",
         "endingTime": "9:40"
       },
       {
-        "name": "Filosofia",
-        "day": "1",
+        "name": "PW2 - DSO",
+        "day": "3",
         "class": "2n1",
         "classId": "809521333477179413",
-        "startingTime": "10:50",
-        "endingTime": "11:40"
+        "startingTime": "10:00",
+        "endingTime": "12:30"
       },
       {
-        "name": "Química",
-        "day": "1",
+        "name": "Língua Portuguesa",
+        "day": "3",
         "class": "2n1",
         "classId": "809521333477179413",
         "startingTime": "13:30",
         "endingTime": "14:20"
       },
       {
-        "name": "Matemática",
-        "day": "1",
+        "name": "Geografia",
+        "day": "3",
         "class": "2n1",
         "classId": "809521333477179413",
         "startingTime": "14:20",
         "endingTime": "15:10"
       },
       {
-        "name": "Química",
-        "day": "1",
+        "name": "Ética e Cidadania Organizacional",
+        "day": "3",
         "class": "2n1",
         "classId": "809521333477179413",
         "startingTime": "15:10",
@@ -143,7 +119,7 @@
       },
       {
         "name": "Sociologia",
-        "day": "1",
+        "day": "3",
         "class": "2n1",
         "classId": "809521333477179413",
         "startingTime": "16:20",
@@ -152,48 +128,48 @@
     ],
     "4":  [
       {
-        "name": "História",
-        "day": "1",
+        "name": "PAM1 - BD2",
+        "day": "4",
         "class": "2n1",
         "classId": "809521333477179413",
         "startingTime": "8:50",
         "endingTime": "9:40"
       },
       {
-        "name": "Filosofia",
-        "day": "1",
+        "name": "BD2 - SEM",
+        "day": "4",
         "class": "2n1",
         "classId": "809521333477179413",
-        "startingTime": "10:50",
+        "startingTime": "10:00",
         "endingTime": "11:40"
       },
       {
-        "name": "Química",
-        "day": "1",
+        "name": "Matemática",
+        "day": "4",
+        "class": "2n1",
+        "classId": "809521333477179413",
+        "startingTime": "11:40",
+        "endingTime": "12:30"
+      },
+      {
+        "name": "SEM - PAM1",
+        "day": "4",
         "class": "2n1",
         "classId": "809521333477179413",
         "startingTime": "13:30",
-        "endingTime": "14:20"
-      },
-      {
-        "name": "Matemática",
-        "day": "1",
-        "class": "2n1",
-        "classId": "809521333477179413",
-        "startingTime": "14:20",
         "endingTime": "15:10"
       },
       {
-        "name": "Química",
-        "day": "1",
+        "name": "Língua Portuguesa",
+        "day": "4",
         "class": "2n1",
         "classId": "809521333477179413",
         "startingTime": "15:10",
         "endingTime": "16:00"
       },
       {
-        "name": "Sociologia",
-        "day": "1",
+        "name": "Física",
+        "day": "4",
         "class": "2n1",
         "classId": "809521333477179413",
         "startingTime": "16:20",
@@ -202,51 +178,35 @@
     ],
     "5": [
       {
-        "name": "História",
-        "day": "1",
-        "class": "2n1",
-        "classId": "809521333477179413",
-        "startingTime": "8:50",
-        "endingTime": "9:40"
-      },
-      {
-        "name": "Filosofia",
-        "day": "1",
+        "name": "Matemática",
+        "day": "5",
         "class": "2n1",
         "classId": "809521333477179413",
         "startingTime": "10:50",
-        "endingTime": "11:40"
+        "endingTime": "12:30"
       },
       {
-        "name": "Química",
-        "day": "1",
+        "name": "Física",
+        "day": "5",
         "class": "2n1",
         "classId": "809521333477179413",
         "startingTime": "13:30",
         "endingTime": "14:20"
       },
       {
-        "name": "Matemática",
-        "day": "1",
+        "name": "Geografia",
+        "day": "5",
         "class": "2n1",
         "classId": "809521333477179413",
         "startingTime": "14:20",
         "endingTime": "15:10"
       },
       {
-        "name": "Química",
-        "day": "1",
+        "name": "Biologia",
+        "day": "5",
         "class": "2n1",
         "classId": "809521333477179413",
         "startingTime": "15:10",
-        "endingTime": "16:00"
-      },
-      {
-        "name": "Sociologia",
-        "day": "1",
-        "class": "2n1",
-        "classId": "809521333477179413",
-        "startingTime": "16:20",
         "endingTime": "17:10"
       }
     ]
