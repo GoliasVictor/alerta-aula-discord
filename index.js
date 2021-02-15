@@ -31,7 +31,9 @@ client.once('ready', () => {
 						.setFooter('Alerta baseado nos horários oficiais da ETEC.');
 					channel.send(`<@&${c.classId}>`);
 					channel.send(embed);
-					cronRunning = false;
+					setTimeout(() => {
+						cronRunning = false;
+					}, 5000);
 				}, {
 					scheduled: true,
 					timezone: 'America/Sao_Paulo',
