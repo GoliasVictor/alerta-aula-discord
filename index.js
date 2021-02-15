@@ -15,7 +15,10 @@ client.once('ready', () => {
 				const time = c.startingTime.split(':');
 				const hour = time[0];
 				const minutes = time[1];
+				let cronRunning = false;
 				cron.schedule(`${minutes} ${hour} * * ${c.day}`, () => {
+					if (cronRunning) { return; }
+					cronRunning = true;
 					const channel = client.channels.cache.find(channels => channels.name === c.class.toLowerCase());
 					const embed = new Discord.MessageEmbed()
 						.setTitle(`Aula de ${c.name}`)
@@ -28,6 +31,7 @@ client.once('ready', () => {
 						.setFooter('Alerta baseado nos horários oficiais da ETEC.');
 					channel.send(`<@&${c.classId}>`);
 					channel.send(embed);
+					cronRunning = false;
 				}, {
 					scheduled: true,
 					timezone: 'America/Sao_Paulo',
