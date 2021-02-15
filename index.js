@@ -9,12 +9,14 @@ client.once('ready', () => {
 	const classes = JSON.parse(classesRawData);
 	const embed = new Discord.MessageEmbed();
 
-	cron.schedule('0 0 1-31 * 1-5', () => {
-		const day = new Date().getDay();
-		for (const cl in classes) {
-			const todayClasses = classes[cl][day];
-			todayClasses.forEach(c => {
-				setTimeout(() => {
+	for (const cl in classes) {
+		console.log(cl);
+		for (let day = 1; day < 6; day++) {
+			classes[cl][day].forEach(c => {
+				const time = c.startingTime.split(':');
+				const hour = time[0];
+				const minutes = time[1];
+				cron.schedule(`${minutes} ${hour} * * ${c.day}`, () => {
 					const channel = client.channels.cache.find(channels => channels.name === c.class.toLowerCase());
 					embed
 						.setTitle(`Aula de ${c.name}`)
@@ -24,12 +26,15 @@ client.once('ready', () => {
 							{ name: 'Horário de início:', value: c.startingTime },
 							{ name: 'Horário de fim:', value: c.endingTime },
 						)
-						.setFooter('Alerta baseado no cronograma de aulas oficial');
+						.setFooter('Alerta baseado nos horários oficiais da ETEC.');
+					channel.send(`<@&${c.classId}>`);
 					channel.send(embed);
-				}, c.time);
+				}, {
+					scheduled: true,
+					timezone: 'America/Sao_Paulo',
+				});
 			});
 		}
-	});
+	}
 });
-
 client.login(process.env.BOT_TOKEN);
